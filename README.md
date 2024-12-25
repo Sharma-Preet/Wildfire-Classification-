@@ -1,6 +1,6 @@
 **Objective :** This project aims to develop a deep learning model to identify whether an image contains a forest fire using a convolutional neural network (CNN). The model is trained using a dataset of forest fire images and evaluated for its accuracy and loss.
 
-Data Preprocessing and Augmentation :
+**Data Preprocessing and Augmentation :**
 
 The project begins by importing necessary libraries, including TensorFlow and Keras for model creation and data manipulation. The dataset for training and testing the model is stored in Google Drive.
 
@@ -28,11 +28,11 @@ A Dropout layer (rate=0.5) to prevent overfitting.
 
 The output layer consists of a single neuron with a sigmoid activation function for binary classification.
 
-Model Compilation and Training :
+**Model Compilation and Training :**
 
 The model is compiled with the binary crossentropy loss function and Adam optimizer with a learning rate of 0.0001. The model is trained for 10 epochs using the training generator for batches of 16 images at a time. The training process is monitored by evaluating both training accuracy and validation accuracy.
 
-Evaluation and Results :
+**Evaluation and Results :**
 
 The model's performance is evaluated on the validation set, yielding the following results:
 
